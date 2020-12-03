@@ -1,0 +1,19 @@
+#fotos h3, h4{
+    text-align: center;
+}
+
+#fotos .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#fotos article{
+    margin: 15px;
+}
+
+#fotos img{
+    width: 100%;
+    max-width: 280px;
+}
+

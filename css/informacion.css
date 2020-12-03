@@ -1,0 +1,42 @@
+#informacion h3, ul, a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+
+}
+
+#informacion, li{
+    text-align: left;
+}
+
+#informacion article{
+    margin: 15px;
+}
+
+#informacion .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h3{
+    font-size: 23px;
+}
+
+li{
+    font-size: 18px;
+    
+}
+
+#informacion .social{
+    font-size: 28px;
+}
+
+.social a{
+    color: white;
+    text-decoration: none;
+}
+
+#informacion{
+    background: #474B4E;
+}

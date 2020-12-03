@@ -1,0 +1,29 @@
+@import url(estilos.css);
+
+/*estilos de la mision de la pagina conocenos.html*/
+#mision h2, h4, p{
+    text-align: justify;
+    font-size: x-large;
+}
+
+#mision .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#mision article{
+    margin: 15px;
+}
+
+#mision img{
+    width: 100%;
+    max-width: 280px;
+    border-radius: 50%;
+}
+
+#mision center p{
+    text-align: center;
+}
+
+

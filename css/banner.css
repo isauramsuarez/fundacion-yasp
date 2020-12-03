@@ -1,0 +1,140 @@
+#banner{
+    margin-top: 50px;
+    position: relative;
+}
+
+#banner img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#banner .contenedor{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color:white;
+}
+
+#banner h2{
+    font-size: 28px;
+}
+
+#banner a{
+    display: block;
+    width: 100px;
+    color:#ffffff;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 10px;
+    border: 3px solid #ffffff;
+    background: #2196f3;
+    text-align: center;
+}
+
+#banner a:hover{
+    background: rgba(47, 132, 212, 0.8);
+}
+
+#banner .contenedor p{
+    font-size: 20px;
+}
+
+/*estilos del banner de la pagina conocenos.html */
+#banner1{
+    margin-top: 50px;
+    position: relative;
+}
+
+#banner1 img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.60;
+    
+}
+
+#banner1 .contenedor{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color:black;
+}
+
+#banner1 h2{
+    font-size: 28px;
+}
+
+#banner1 a{
+    display: block;
+    width: 100px;
+    color:#ffffff;
+    text-decoration: none;
+    padding: 7px;
+    margin-top: 10px;
+    border: 3px solid #ffffff;
+    background: #2196f3;
+    text-align: center;
+}
+
+#banner1 a:hover{
+    background: rgba(47, 132, 212, 0.8);
+}
+
+#banner1 .contenedor p{
+    font-size: 20px;
+}
+/*hasta aqui los estilos del banner de conocenos.html*/
+
+@media (min-width:480px){
+    #banner h2{
+        font-size: 40px;                                
+    }
+
+    #banner a{
+        margin-top: 25px;
+        
+    }
+
+    #banner1 h2{
+        font-size: 40px;                                
+    }
+
+    #banner1 a{
+        margin-top: 25px;
+        
+    }
+}
+
+@media (min-width:768px){
+    #banner {
+        height: 300px;
+        overflow: hidden;
+    }
+
+    #banner img{
+        height: auto;
+        margin-top: -100px;
+    }
+
+    #banner1 {
+        height: 300px;
+        overflow: hidden;
+    }
+
+    #banner1 img{
+        height: auto;
+        margin-top: -100px;
+    }
+}
+
+@media (min-width:1024px){
+    #banner img{
+        margin-top: -400px;
+    }
+
+    #banner1 img{
+        margin-top: -500px;
+    }
+}

@@ -1,0 +1,30 @@
+#oficinas, #locacion{
+    text-align: center;
+    padding: 20px;
+}
+
+#locacion .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ubicacion{
+    margin: 20px;
+}
+
+.ubicacion h3, h4, br{
+    text-align: left;
+}
+
+.ubicacion iframe{
+    width:400px;
+    height:300px;
+}
+
+@media (min-width:1024px){
+    .ubicacion iframe{
+        width:600px;
+        height:450px;
+    }
+}

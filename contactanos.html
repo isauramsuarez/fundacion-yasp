@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <link  rel="icon"   href="images/logo.png" type="image/png" /> 
+    <title>FUNDACION YASP</title>
+    <!--animate css -->
+    <link  rel = " stylesheet " href = " https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css "> 
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <script src="js/validar.js"></script>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <h1><img src="images/logo.png">Fundacion Yasp</h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="conocenos.html">Conocenos</a>
+                <a href="proyectos.html">Proyectos</a>
+                <a href="colabora.html">Colabora</a>
+                <a href="contactanos.html">Contactanos</a>
+            </nav>
+        </div>    
+    </header>
+    <main>
+        <section id="banner1">
+            <img src="images/contactanos.jpg">
+            <div class="contenedor">
+                <h2><strong>"A veces sentimos que lo que hacemos es tan solo una gota en el mar, pero el mar sería menos si le faltara esa gota."</strong></h2>
+                <h3>Madre Teresa de Calcuta</h3>  
+            </div>
+        </section>
+        <section id="comunicacion">
+            <h2>FORMULARIO</h2>
+            <h4>No dudes en contactarnos. Resolveremos todas tus dudas e inquietudes</h4>
+            <br>
+            <div class="formulario">
+                <div class="contact-form">
+                    <h3>Contactanos</h3><br>
+                    <form name="forma"
+                    action="/recursoEnServidor"
+                    method="POST"
+                    onsubmit="return validarforma(this);">
+                        <p class="item1">
+                            <label>Nombre Completo</label>
+                            <input type="text" name="usuario" onfocus="this.select();"/>
+                        </p>
+                        <br>
+                        <p class="item2">
+                            <label>Correo Electronico</label>
+                            <input type="email" name="email" size="48" onfocus="this.select();"/>
+                        </p>
+                        <br>
+                        <p class="item3">
+                            <label>Celular</label>
+                            <input type="number" name="cellphone" onfocus="this.select();"/> 
+                        </p>
+                        <br>
+                        <p class="item4">
+                            <label>Asunto</label>
+                            <input type="text" name="asunto" onfocus="this.select();"/>
+                        </p>
+                        <br>
+                        <p class="block">
+                            <label>Mensaje</label>
+                            <textarea name="message" rows="3" placeholder="Escriba aquí su mensaje"></textarea>
+                        </p>
+                        <p class="block">
+                            <button type="submit" value="enviar" class="default">
+                                Enviar
+                            </button>
+                        </p>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h4>Más información</h4>
+                    <ul>
+                        <li>oficina principal</li><br>
+                        <li class="icon-location">av. Jiménez No 9-43 of 412</li>
+                        <li class="icon-phone">3375811</li>
+                        <li class="icon-mobile">3175634617</li>
+                    </ul>
+                    <br>
+                    <ul>
+                        <li>Sede Soacha</li><br>
+                        <li class="icon-location">Barrio manzano manzana J casa 9</li>
+                        <li class="icon-mobile">3175634617</li>
+                    </ul>
+                    <br>
+                    <ul>
+                        <li>Sede Tolima</li><br>
+                        <li class="icon-location">Anzoátegui tol. vereda la unión finca el espejo</li>
+                        <li class="icon-mobile">3175634617</li>
+                    </ul><br>
+                    <h4 class="redes">Redes Sociales</h4>
+                    <a class="icon-facebook-1" href=""></a>
+                    <a class="icon-twitter-1" href=""></a>
+                    <a class="icon-instagram" href=""></a>
+                    <a class="icon-whatsapp" href=""></a>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="contenedor">
+            <p class="copy">&copy;2020 Design by Isa</p>
+        </div>
+    </footer>
+</body>

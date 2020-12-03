@@ -1,0 +1,147 @@
+@import url(banner.css);
+@import url(menu.css);
+/*estilos de la hoja principal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'NotoSansSC-Black';
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #474B4E;
+    color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+    
+}
+
+h1{
+    float: left;
+    font-family: 'NotoSansSC-Black';
+    color: white;
+}
+
+
+header .contenedor{
+    display: table;
+}
+
+header .contenedor img{
+    float: left;
+    border-radius: 30%;
+    width: 45px;
+    height: 45px;
+    padding-left: 2px;
+    padding-right: 4px;
+    padding-top: 4px;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#obras{
+    text-align: center;
+}
+
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy{
+    font-size: 20px;
+}
+
+@media (min-width:1024px){
+    .contenedor{
+        width: 1000px;
+    }
+}
+
+/*hasta aqui*/
+
+/*informacion*/
+#informacion1 h3, ul, a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+
+}
+
+#informacion1, li{
+    text-align: left;
+}
+
+#informacion1 article{
+    margin: 15px;
+}
+
+#informacion1 .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h3{
+    font-size: 23px;
+}
+
+#informacion1 li, ul, a{
+    font-size: 18px;    
+}
+
+
+#informacion1 .social{
+    font-size: 28px;
+}
+
+.social a{
+    color: white;
+    text-decoration: none;
+}
+
+#informacion1{
+    background: #474B4E;
+}
+/*hasta aqui*/
+
+#donacion h2, p, ul, a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+#donacion .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#donacion article{
+    margin: 15px;
+}
+
+
